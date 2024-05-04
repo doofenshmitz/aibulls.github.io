@@ -1,0 +1,316 @@
+.art,
+.div {
+  position: relative;
+}
+.div {
+  height: 140px;
+  width: 104px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 104px;
+}
+.art {
+  width: 279px;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.art,
+.beAPart,
+.theAiOverlords {
+  margin: 0;
+}
+.beAPartContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.div1 {
+  height: 140px;
+  width: 120px;
+  position: absolute;
+  margin: 0 !important;
+  right: -13px;
+  bottom: -117px;
+  font-size: var(--font-size-181xl);
+  font-weight: 900;
+  color: var(--gray-6);
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.beAPartOf7000AgentsTrottParent,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.beAPartOf7000AgentsTrottParent {
+  flex: 1;
+  position: relative;
+}
+.frameContainer {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-mini);
+  font-size: var(--font-size-3xl);
+}
+.artParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.artParent,
+.frameWrapper,
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+  min-width: 191px;
+  font-size: var(--font-size-76xl);
+  color: var(--gray-1);
+}
+.parent {
+  width: 422px;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  min-width: 422px;
+  max-width: 100%;
+}
+.div2 {
+  height: 140px;
+  width: 120px;
+  position: relative;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.analysis,
+.weeklyTaeCoinDoOf {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.analysisParent,
+.frameWrapper1,
+.weeklyTaeCoinDoOfBestTeaParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.analysisParent,
+.weeklyTaeCoinDoOfBestTeaParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.weeklyTaeCoinDoOfBestTeaParent {
+  gap: var(--gap-base);
+  font-size: var(--font-size-3xl);
+}
+.analysisParent {
+  gap: var(--gap-5xl);
+}
+.frameDiv,
+.frameGroup,
+.group {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameDiv {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xl) 0 0;
+  box-sizing: border-box;
+  min-width: 273px;
+  font-size: var(--font-size-76xl);
+  color: var(--gray-1);
+}
+.frameGroup,
+.group {
+  flex-direction: row;
+}
+.group {
+  width: 570px;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  min-width: 570px;
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.altcoin {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.bullLubeIs,
+.especiallyInThe,
+.evenInThe,
+.everApedAnd,
+.everytime,
+.moreDetailsSoon {
+  margin: 0;
+}
+.everApedAndContainer {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.everApedAndLostEverytimeWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-3xl);
+}
+.altcoinParent,
+.everApedAndLostEverytimeWrapper,
+.frameWrapper2 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.altcoinParent {
+  width: 421px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frameWrapper2 {
+  width: 989px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-76xl);
+  color: var(--gray-1);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-12xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-181xl);
+  color: var(--gray-6);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1050px) {
+  .div {
+    font-size: var(--font-size-61xl);
+  }
+  .art {
+    font-size: var(--font-size-28xl);
+    line-height: 22px;
+  }
+  .div1 {
+    font-size: var(--font-size-61xl);
+  }
+  .parent {
+    flex: 1;
+  }
+  .div2 {
+    font-size: var(--font-size-61xl);
+  }
+  .analysis {
+    font-size: var(--font-size-28xl);
+    line-height: 22px;
+  }
+  .group {
+    flex: 1;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .altcoin {
+    font-size: var(--font-size-28xl);
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .group,
+  .parent {
+    min-width: 100%;
+  }
+  .group {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-31xl);
+    flex: 1;
+  }
+  .art {
+    font-size: var(--font-size-9xl);
+    line-height: 14px;
+  }
+  .beAPartContainer {
+    font-size: var(--font-size-lg);
+    line-height: 29px;
+  }
+  .div1 {
+    font-size: var(--font-size-31xl);
+  }
+  .parent {
+    flex-wrap: wrap;
+  }
+  .div2 {
+    font-size: var(--font-size-31xl);
+  }
+  .analysis {
+    font-size: var(--font-size-9xl);
+    line-height: 14px;
+  }
+  .weeklyTaeCoinDoOf {
+    font-size: var(--font-size-lg);
+    line-height: 29px;
+  }
+  .altcoin {
+    font-size: var(--font-size-9xl);
+    line-height: 14px;
+  }
+  .everApedAndContainer {
+    font-size: var(--font-size-lg);
+    line-height: 29px;
+  }
+}

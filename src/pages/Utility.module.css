@@ -1,0 +1,74 @@
+.aaaUtility {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 300;
+  font-family: inherit;
+}
+.aaaUtilityParent {
+  width: 1170px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 62px;
+  max-width: 100%;
+}
+.utility,
+.utilityInner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.utilityInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--gray-4);
+  font-family: var(--font-roboto);
+}
+.utility {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 233px;
+  gap: 98px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .aaaUtilityParent {
+    gap: 31px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .aaaUtility {
+    font-size: var(--font-size-32xl);
+    line-height: 51px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .aaaUtilityParent {
+    gap: var(--gap-mini);
+  }
+  .utility {
+    gap: var(--gap-30xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .aaaUtility {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .utility {
+    gap: var(--gap-5xl);
+  }
+}

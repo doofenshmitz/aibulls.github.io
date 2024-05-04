@@ -1,0 +1,372 @@
+.overview1 {
+  margin: 0;
+  height: 47px;
+  position: relative;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 300;
+  font-family: inherit;
+  display: inline-block;
+}
+.frameChild {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameChild,
+.frameItem,
+.rectangleParent {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frameItem {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.rectangleParent {
+  margin: 0 !important;
+}
+.bulls {
+  position: relative;
+  line-height: 64px;
+  z-index: 2;
+}
+.frameContainer,
+.image15Icon {
+  position: relative;
+  max-width: 100%;
+}
+.frameContainer {
+  flex: 0.981;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) 79px;
+  box-sizing: border-box;
+  min-width: 370px;
+  min-height: 255px;
+}
+.image15Icon {
+  height: 255px;
+  width: 570px;
+  object-fit: cover;
+  display: none;
+}
+.combinations,
+.mil {
+  margin: 0;
+}
+.milCombinations {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.frameGroup,
+.image15Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.image15Parent {
+  flex: 1;
+  padding: var(--padding-29xl) 75px;
+  box-sizing: border-box;
+  background-image: url(/public/image-15@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 370px;
+  min-height: 255px;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+}
+.frameInner {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameInner,
+.image16Icon,
+.rectangleGroup {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.image16Icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleGroup {
+  margin: 0 !important;
+}
+.erc721a {
+  margin-left: -5px;
+  position: relative;
+  line-height: 64px;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+  z-index: 2;
+}
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 179px 0 12px;
+  position: relative;
+}
+.rectangleIcon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.image17Icon,
+.rectangleContainer,
+.rectangleIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.image17Icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleContainer {
+  margin: 0 !important;
+}
+.coolFunkyArt {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 64px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 2;
+}
+.frameParent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 157px 22px 34px;
+  box-sizing: border-box;
+  position: relative;
+  min-width: 305px;
+  max-width: 100%;
+}
+.frameChild1 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frameChild1,
+.image18Icon,
+.rectangleParent1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.image18Icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent1 {
+  margin: 0 !important;
+}
+.eth {
+  position: relative;
+  line-height: 64px;
+  z-index: 2;
+}
+.frameParent4 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 21px 27px;
+  position: relative;
+}
+.frameDiv,
+.frameParent,
+.frameParent3,
+.overviewParent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent3 {
+  height: 356px;
+  width: 370px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-11xl);
+}
+.frameDiv,
+.frameParent,
+.overviewParent {
+  align-items: flex-start;
+}
+.frameDiv {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-11xl);
+}
+.frameParent,
+.overviewParent {
+  flex-direction: column;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-11xl);
+  color: var(--color-white);
+}
+.overviewParent {
+  width: 1170px;
+  gap: 69.3px;
+}
+.overview,
+.overviewInner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.overviewInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--gray-4);
+  font-family: var(--font-roboto);
+}
+.overview {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 185px;
+  gap: 55.9px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .overviewParent {
+    gap: 35px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .bulls,
+  .overview1 {
+    font-size: var(--font-size-32xl);
+    line-height: 51px;
+  }
+  .frameContainer {
+    flex: 1;
+  }
+  .milCombinations {
+    font-size: var(--font-size-32xl);
+    line-height: 51px;
+  }
+  .image15Parent {
+    flex: 1;
+    min-height: auto;
+  }
+  .frameGroup {
+    flex-wrap: wrap;
+  }
+  .coolFunkyArt,
+  .erc721a,
+  .eth {
+    font-size: var(--font-size-32xl);
+    line-height: 51px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .image15Parent {
+    padding-left: var(--padding-18xl);
+    padding-right: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+  .overviewParent {
+    gap: 17px;
+  }
+  .overview {
+    gap: 28px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .bulls,
+  .overview1 {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .frameContainer {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .milCombinations {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+  .image15Parent {
+    min-width: 100%;
+  }
+  .coolFunkyArt,
+  .erc721a,
+  .eth {
+    font-size: var(--font-size-19xl);
+    line-height: 38px;
+  }
+}
